@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href = "css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="lightbox/css/css.css">
+  <link rel="stylesheet" href="lightbox/magnific-popup.css">
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Magnific Popup core JS file -->
+  <script src="lightbox/jquery.magnific-popup.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img src = "img/goit.png">
+    </header>
+    <menu>
+      <ul id="main_menu">
+        <li><a href = "">Главная</a></li>
+        <li><a href = "">Товары</a></li>
+        <li><a href = "">О_нас</a></li>
+        <li><a href = "">Контакты</a></li>
+      </ul>
+    </menu>
+    <article>
+      <aside>
+        <ul id="sidebar_menu">
+          <li><a href = "">Ноутбуки</a></li>
+          <li><a href = "">Планшеты</a></li>
+          <li><a href = "">Телефоны</a></li>
+          <li><a href = "">Телевизоры</a></li>
+          <li><a href = "">Бытровая техника</a></li>
+          <li><a href = "">Автотовары</a></li>
+        </ul>
+      </aside>
+	  <div class = "main_article">
+    <div class="parent-container">
+
+  <a href="lightbox/images/pic1.jpg"><img src="lightbox/images/pic1.jpg" alt=""></a>
+  <a href="lightbox/images/pic2.jpg"><img src="lightbox/images/pic2.jpg" alt=""></a>
+  <a href="lightbox/images/pic3.jpg"><img src="lightbox/images/pic3.jpg" alt=""></a>
+  <a href="lightbox/images/pic4.jpg"><img src="lightbox/images/pic4.jpg" alt=""></a>
+</div>
+<script>
+$('.parent-container').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+</script>
+		<p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.</p>
+	  </div>
+      </article>
+	  <div class="clear"></div>
+      <footer>
+        <menu>
+          <ul id="footer_menu">
+            <li><a href = "">Главная</a></li>
+            <li><a href = "">Товары</a></li>
+            <li><a href = "">О_нас</a></li>
+            <li><a href = "">Контакты</a></li>
+          </ul>
+        </menu>
+      </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table{
+    border:1px solid;
+    border-collapse: collapse;
+    width:520px;
+    font-family: verdana;
+    font-size:10px;
+}
+img{
+    width:20px;
+}
+td{
+        border:1px solid;
+        text-align: center;
+        
+}
+tr:hover{
+    background: gray;
+}

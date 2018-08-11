@@ -1,0 +1,27 @@
+.autors{
+    color: #eeb10a;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 2px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.21;
+    color: #10222f;
+    font-family: "PT Serif";
+}
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-size: 14px;
+    color: #10222f;
+    margin-top: 19px;
+    line-height: 1.45;
+}
+.wrapper{
+    width:400px;
+}

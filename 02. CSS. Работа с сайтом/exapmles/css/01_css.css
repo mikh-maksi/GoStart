@@ -1,0 +1,15 @@
+.main_p{
+    font-size:14px; /*размер шрифта*/
+    font-family:Arial; /*Семейство шрифтов*/
+    color:blue; /*цвет текста*/
+    font-weight:600; /*показатель "жирности"*/
+    font-style:italic; /*стиль начертания: italic | oblique - курсив|наклонный*/
+    text-decoration:none; /*оформление текста*/
+    text-align:right; /*Выравнивание текста*/
+}
+
+.fist_letter
+{
+    font-size:26px;
+    color:#FF0000;
+}

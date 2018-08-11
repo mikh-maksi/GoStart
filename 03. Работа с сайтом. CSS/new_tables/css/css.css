@@ -1,0 +1,29 @@
+.bank table{
+    border-collapse: collapse;
+    font-family: Verdana;
+    width:510px;
+    font-size:10px;
+}
+.bank td{
+    border:1px solid;
+    width:10px;
+    height:10px;
+    text-align: center;
+}
+.bank img{
+    width:40px;
+    border:1px solid white;
+}
+.bank img:hover{
+    border:1px dotted;
+}
+.bank tr:hover{
+    background: #CCC;
+}
+.bank .ukrgasbank{
+    background: #DDDDFF;
+}
+.bank .aval{
+    background: #FFFFDD;
+    
+}

@@ -1,0 +1,8 @@
+	.wrapper{
+			background:gray; /*Фон*/
+            width:960px; /*ширина*/
+            height:500px; /*Высота*/
+            margin:0 auto; /*внешние края, стандартный прием выравнивания по центру*/
+            padding:20px; /*внутренний отступ от всех краев*/
+            border: 1px solid green;  
+        }

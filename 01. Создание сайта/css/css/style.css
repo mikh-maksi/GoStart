@@ -1,0 +1,32 @@
+.geo{
+  border:1px solid;
+  float:left;
+}
+article ol
+{margin-left: 20px;
+display: table;}
+
+.cl{
+  clear:both;
+}
+.block
+{
+  height:150px;
+  overflow: hidden;
+  zoom: 1; /* for IE */
+
+}
+
+.block2:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
